@@ -1,0 +1,210 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.colored-section {
+    background: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+
+/* Container */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Navigation Bar */
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Session */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Title Image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 10%;
+}
+
+
+/* Feature Box */
+
+/* My css */
+/* h3{
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+#features{
+    padding: 5% 0;
+}
+
+.features-icon{
+    color: #ff4c68;
+    font-size: 48px;
+}
+
+.features-icon:hover
+{
+    color: #ff7171;
+}
+ 
+.features-content
+{
+    font-weight: 400;
+}
+
+.features-content p
+{
+    color: #808080;
+} */
+
+/* Angela css */
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Session */
+#testimonials {
+    background: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    padding-bottom: 3%;
+    background: #ef8172;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.card {
+    padding: 20px;
+}
+
+/* Pricing Session */
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1050px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+/* CTA Session */
+/* Do đã có .colored-section nên #cta định dạng background-color và color không cần dùng nữa */
+
+/* Footer session */
+/* Do đã có .white-section nên #footer định dạng background-color và color không cần dùng nữa */
+
+.social-icon {
+    margin: 20px 10px;
+}
